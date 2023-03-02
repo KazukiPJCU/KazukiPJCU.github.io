@@ -2,3 +2,8 @@ body {
     background-color: lightslategray;
     opacity: 0.6;
   }
+.Top_buttons {
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid black;
+} 
