@@ -5,5 +5,62 @@ body {
 .Top_buttons {
   padding: 20px;
   margin: 20px;
-  border: 2px solid black;
+  border: 2px solid white;
+  background-color: lightsteelblue;
+  color: white;
 } 
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: darkslategrey;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+h1,h2 {
+  background-color: azure;
+  
+}
+
+p{
+  background-color: white;
+  width: auto;
+  border: 1px solid white;
+  word-wrap: break-word
+
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+.centerimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.centerimageslides {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}

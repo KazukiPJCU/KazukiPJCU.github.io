@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jewelry of The Future About</title>
+<div class="Top_buttons">
+    <a <link rel="stylesheet" href="index.html">HOME</a>
+    <a <link rel="stylesheet" href="about.html">ABOUT</a>
+    <a <link rel="stylesheet" href="gallary.html">GALLARY</a>
+    </div>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Gallary</h1>
+<p>A collection of watch designs and concept designs
+</p>
+
+<div class="slideshow-container">
+
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="pexels-jatin-anand-125779.jpg" class="centerimageslides">
+      <div class="text">Design concept</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="maxresdefault.jpg" class="centerimageslides">
+      <div class="text">Design concept Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="Aerial_view_of_Townsville.jpg" class="centerimageslides">
+      <div class="text">Location of bussiness</div>
+    </div>
+  
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  <script>
+  let slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 3000);
+  }
+</script>
+</body>
+</html>
